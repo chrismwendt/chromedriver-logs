@@ -19,9 +19,12 @@ import GHC.Generics
 import qualified Data.Map as M
 import Data.IORef
 import Data.Scientific
+import System.IO
 
 main :: IO ()
 main = do
+  hSetBuffering stdin LineBuffering
+  hSetBuffering stdout LineBuffering
   -- I used an IORef to store the in-flight commands. StateT is a potential alternative.
   inFlightCommands <- newIORef M.empty
   let
