@@ -14,4 +14,4 @@ chromedriver (the tool for programmatic interaction with Chrome) doesn't have an
 - Streams log lines
 - Ignores junk lines
 
-<script src="https://asciinema.org/a/44dRKLg0E2Mp9CXrZb113IHAK.js" id="asciicast-44dRKLg0E2Mp9CXrZb113IHAK" async></script>
+[![asciicast](https://asciinema.org/a/44dRKLg0E2Mp9CXrZb113IHAK.png)](https://asciinema.org/a/44dRKLg0E2Mp9CXrZb113IHAK)
